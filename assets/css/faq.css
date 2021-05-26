@@ -1,0 +1,284 @@
+body
+{
+/* background-color: rgb(5, 5, 156); */
+background:white;
+/* font-family: "Open Sans", sans-serif; */
+}  
+.abc
+{ 
+ /* position:relative;*/
+/* font-weight: 900; */
+/* z-index: 5; */
+/* position: fixed;*/
+background: #032168;    
+}
+.test
+{  
+/* position: absolute;*/
+/* bottom: 150px; */
+/* left: 130px; */
+/* padding-left: 20px;*/
+/* padding-right: 60px; */
+/* text-align: center; */
+color:white;
+margin-top: 120px;
+margin-bottom: 150px;
+margin-left: 100px;
+}
+.heading1
+{
+font-size:38px;
+margin-bottom: 15px;
+}
+.addrs
+{
+font-style: normal;
+font-size:15px ;
+border-bottom: 1px solid rgb(189, 188, 188);
+padding-bottom:15px;
+}
+.phone
+{
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.gk
+{
+border: 1px solid rgb(211, 210, 210);
+border-radius: 12px;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 10px;
+padding-right: 10px;
+color: white;
+font-size: 12px; 
+/* display:none;  */
+}
+.gk:hover
+{
+color:rgb(194, 194, 197);
+background-color:white;
+}
+.btn
+{
+margin-top: 20px;
+float: right;
+}
+.heading2
+{
+margin-top:45px;
+margin-bottom:30px;
+margin-left: 50px;
+font-size: 40px;
+}
+input.form-control
+{
+background: transparent;
+border: none;
+border-bottom: 1px solid rgb(51, 49, 49);
+border-radius: 0;
+}
+input.form-control:focus 
+{
+border: none;
+border: 2px solid rgb(44, 43, 43);
+border-radius: 3px;
+outline: none !important;
+box-shadow: none;
+}
+select.form-control
+{
+background: transparent;
+border: none;
+border-radius: 0;
+}
+select.form-control:focus
+{
+border: none;
+border: 2px solid rgb(44, 43, 43);
+border-radius: 3px;
+outline: none !important;
+box-shadow: none;
+}
+#msg:focus
+ {
+border: none;
+border: 2px solid rgb(51, 49, 49);
+border-radius: 2px;
+outline: none !important;
+box-shadow: none;
+}
+.header-bar
+{
+background-color: #032168;
+height: 50px;
+}
+nav
+{
+height: 100px;
+background-color: #ffffff;
+}
+/* ul */
+/* { */
+/* float: left; */
+/* } */
+.phn
+{
+text-decoration: none;
+color: white;
+font-size: 15px;
+font-weight: 600;
+margin-left: 20px;
+font-family: 'Rubik', sans-serif;
+}
+.logos a
+{
+ text-decoration: none;
+padding-top: 15px;
+float:right;
+width: 40px;
+color:white;
+display: flex;
+justify-content:space-evenly;
+}
+
+.navbar-nav
+{
+margin-left: 350px;
+/* margin:20px; */
+}
+.navbar-brand img 
+{
+width: 90px;
+margin: 30px;
+} 
+.nav-item a
+{
+margin: 5px;
+font-weight:700;
+font-size: 15px;
+}
+.nav-link:hover
+{
+color:#265C7E;
+}
+.center{
+text-align:center;
+background-color: #032168;
+color:white;
+}
+
+
+.faq li {
+    list-style: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);   
+}
+
+.accordion-button::after 
+{    
+display:none;    
+}
+button.accordion-button
+{
+/* background: transparent; */
+border: none;
+border-radius: 0;
+color: #265C7E; 
+font-size:20px;
+border: 1px solid gainsboro; 
+font-weight: 700;
+}
+button.accordion-button:focus
+{
+background-color: white;
+border: none;
+border-radius: 3px;
+outline: none !important;
+border-top: 1px solid   gainsboro ;
+border-bottom: 1px solid #265C7E;
+box-shadow: none;
+color:#265C7E; 
+font-size:20px ;
+font-weight: 700;     
+}
+.fa
+{
+padding:5px;
+} 
+.accordion-body
+{
+border-top: 2px solid #265C7E;
+}
+
+.footer{
+    background-color:#f3f5f6;
+    padding:40px;
+}
+
+
+.order{
+    text-align: justify;
+    font-size: small;  
+    padding-top: 20px;
+}
+.contact-info a  {
+    text-decoration: none;
+    color: black;
+    /* text-align: justify; */  
+}
+.contact-info li{
+    list-style: none; 
+    font-size: small;
+}
+.links a  {
+    text-decoration: none;
+    color: black;
+}
+.links li{
+    list-style: none; 
+    font-size: small;
+}
+.links{
+    text-align: justify;
+    margin-top: 25px;
+    font-size: small;
+}
+.one{
+    padding-top:10px;
+}
+
+.design{
+border: none;
+background-color: gainsboro;
+height: 41px;
+/* padding: 5px 20px 1px 2px; */
+position: relative;
+outline: none;
+width: 76%;
+}
+.size{
+    position: absolute;
+    color: white;
+    background-color: rgb(17, 17, 83);
+    border: none;
+    height: 41px;
+}
+.size:hover{
+    background-color: black;
+}
+
+.color{ padding-top: 20px;}
+
+.color a{
+font-size: 20px;
+color: black;
+}
+.footer-bottom{
+    background-color: #dadada;
+    padding: 1px 0;
+}
+.text-copyright{
+padding-top: 10px;
+  font-size: small;  
+}

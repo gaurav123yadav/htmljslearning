@@ -1,0 +1,212 @@
+body
+{
+background:white;
+}
+.header-bar
+{
+background-color: #032168;
+height: 50px;
+}
+nav
+{
+height: 100px;
+background-color: #ffffff;
+}
+.phn
+{
+text-decoration: none;
+color: white;
+font-size: 15px;
+font-weight: 600;
+margin-left: 10px;
+font-family: 'Rubik', sans-serif;
+}
+.logos a
+{
+ text-decoration: none;
+padding-top: 15px;
+/* list-style: none; */
+width: 40px;
+color:white;
+float: right;
+display: flex;
+/* justify-content:space-evenly; */
+}
+.navbar-nav
+{
+margin-left: 350px;
+
+}
+.navbar-nav
+{
+margin-left: 350px;
+
+}
+.navbar-brand img 
+{
+width: 90px;
+margin: 30px;
+} 
+.nav-item a
+{
+margin: 5px;
+font-weight:700;
+font-size: 15px;
+}
+.nav-link:hover
+{
+color:rgb(16, 16, 201);
+}  
+
+/* faq style */
+.faq li 
+{ 
+list-style: none;
+display: inline-block;
+color: rgb(255, 255, 255);   
+}
+/* faq style end */
+
+/* login form style */
+.heading2
+{
+margin-top:35px;
+margin-bottom:30px;
+margin-left: 50px;
+font-size: 30px;
+}
+input.form-control
+{
+padding: 15px;
+background-color: #f7f7f7;
+/* background: transparent; */
+border: none;
+border-radius: 0;
+}
+input.form-control:focus 
+{
+background-color: #f7f7f7;       
+border: none;
+border: 1px solid rgb(44, 43, 43);
+border-radius: 3px;
+outline: none !important;
+box-shadow: none;
+}
+#msg
+{
+background-color: #f7f7f7;
+}
+
+#msg:focus
+{
+border: none;
+border: 1px solid rgb(51, 49, 49);
+border-radius: 5px;
+outline: none !important;
+box-shadow: none;
+}
+button.butn
+{ 
+color: white;    
+background-color: #032168;    
+border-radius: 25px;
+border: none;  
+padding-top:12px;
+padding-left:30px;
+padding-right:30px;
+padding-bottom:12px;
+}
+.heading3
+{
+text-align:justify;
+font-size:large;
+padding-top:15px ;
+}
+.two{
+list-style: none; 
+font-size:large;
+padding-top: 20px;
+border-bottom: 1px solid gainsboro;
+}
+/* login form style end  */
+
+/* footer style */
+.footer{
+background-color:#f3f5f6;
+padding:40px;
+}
+.order{
+text-align: justify;
+font-size: small;  
+padding-top: 20px;
+}
+.contact-info a  
+{
+text-decoration: none;
+color: black;  
+}
+.contact-info li
+{
+list-style: none; 
+font-size: small;
+}
+.links a
+{
+text-decoration: none;
+color: black;
+}
+.links li
+{
+list-style: none; 
+font-size: small;
+}
+.links
+{
+text-align: justify;
+margin-top: 25px;
+font-size: small;
+}
+.one
+{
+padding-top:10px;
+}
+.design
+{
+border: none;
+background-color: gainsboro;
+height: 41px;
+position: relative;
+outline: none;
+width: 76%;
+}
+.size
+{
+position: absolute;
+color: white;
+background-color: rgb(17, 17, 83);
+border: none;
+height: 41px;
+padding: 10px;
+}
+.size:hover{
+    background-color: black;
+}
+.color{ padding-top: 20px;}
+
+.color a
+{
+font-size: 20px;
+color: black;
+padding: 5px;
+}
+.footer-bottom
+{
+background-color: #dadada;
+padding: 1px 0;
+}
+.text-copyright
+{
+padding-top: 10px;
+font-size: small;  
+}
+/* footer style end */
